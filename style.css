@@ -1,0 +1,200 @@
+/* * nav */
+nav {
+  padding: 32px !important;
+}
+
+.navbar_span {
+  color: black;
+  font-weight: bold;
+}
+
+/* * 封面 */
+
+.featurette-heading {
+  font-size: 40px;
+}
+
+.title-img {
+  object-fit: cover;
+}
+
+.title {
+  display: flex !important;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title-p,
+.title-span {
+  padding-top: 8px;
+  font-size: 20px;
+}
+
+.title-p {
+  margin: 0px;
+}
+
+.title-icon {
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+.icon {
+  padding-left: 16px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+/* 在大屏幕上，保持原来的布局 */
+@media (min-width: 768px) {
+  .featurette .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .featurette .col-md-5 {
+    order: 1;
+  }
+
+  .featurette .col-md-7 {
+    order: 2;
+  }
+
+  /* 图片列的尺寸 */
+  .title-img {
+    width: 1150px;
+    height: 800px;
+  }
+}
+
+/* 在小屏幕上，改变布局 */
+@media (max-width: 767px) {
+  .featurette .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featurette .col-md-5 {
+    order: 2;
+  }
+
+  .featurette .col-md-7 {
+    order: 1;
+  }
+
+  .title-p,
+  .title-span,
+  .title-icon {
+    text-align: center;
+  }
+}
+
+/* * 作品介紹 */
+
+.project-tIntroduction-title {
+  padding-top: 120px;
+  padding-bottom: 80px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.project-Introduction-perfume-img {
+  background-image: url("./img/perfumeCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 800px;
+}
+
+.project-Introduction-perfume-img h2,
+.project-Introduction-perfume-img p {
+  color: white; /* 將標題和內文顏色設置為白色 */
+}
+
+.box {
+  padding-top: 80px;
+  padding-bottom: 56px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  width: 526px;
+  height: 400px;
+  top: 250px;
+  right: 315px;
+}
+
+.box-title {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.box-content {
+  font-size: 16px;
+}
+
+.box-tag {
+  font-size: 16px;
+  color: black;
+  width: Hug (88px) px;
+  height: Hug (32px) px;
+  padding: 4px 12px 4px 12px;
+  background-color: white;
+  border-radius: 16px;
+  opacity: 0px;
+}
+
+.project-Introduction-drink-img {
+  background-image: url("./img/drinkCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.project-Introduction-drink-img h2,
+.project-Introduction-drink-img p {
+  color: white;
+}
+
+.project-Introduction-game-img {
+  background-image: url("./img/gameCover.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 800px;
+}
+
+.project-Introduction-game-img h2,
+.project-Introduction-game-img p {
+  color: white;
+}
+
+.box-drink {
+  padding-top: 80px;
+  padding-bottom: 56px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: absolute;
+  width: 526px;
+  height: 400px;
+  top: 250px;
+  left: 315px;
+}
+
+.box-bigtag {
+  padding-bottom: 20px;
+}
+
+.box-button {
+  width: 176px;
+  height: 62px;
+}
+
+.box-button-top {
+  padding-top: 40px;
+}
