@@ -19,7 +19,7 @@ export default {
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link " aria-current="page">
+                    <a href="#/work" class="nav-link " aria-current="page">
 
                         <span class="navbar_span">作品集</span>
                     </a>
