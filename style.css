@@ -378,6 +378,23 @@ a {
   /* * footer  */
   .footer-nav {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title,
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-title{
+    padding-top:20px;
+  }
+
+
+  .footer-content{
+    padding-top:10px
   }
 
 }
