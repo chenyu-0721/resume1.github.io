@@ -47,7 +47,6 @@ nav {
 }
 
 
-
 .row {
   --bs-gutter-x: 0;
 }
@@ -219,7 +218,7 @@ nav {
 /* * 精選文章 */
 
 .owl-theme .item {
-  height: auto;
+  height: 398px;
   padding: 1rem;
 }
 
