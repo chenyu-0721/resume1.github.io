@@ -1,10 +1,8 @@
+import resumeCover from "./pinia/resumeCover.js";
 const { createApp } = Vue;
 const { createPinia } = Pinia;
 
-const routes = [
-  { path: "/", component: NavbarComponent },
-  { path: "/cart", component: cartComponent },
-];
+const routes = [{ path: "/", component: resumeCover }];
 
 const router = VueRouter.createRouter({
   history: VueRouter.createWebHashHistory(),
@@ -12,7 +10,7 @@ const router = VueRouter.createRouter({
 });
 
 const app = createApp({
-  components: {},
+  components: { resumeCover },
 });
 
 const pinia = createPinia();

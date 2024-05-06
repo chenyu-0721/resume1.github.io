@@ -10,143 +10,23 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-
+    <!-- owl.carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    </link>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    </link>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </head>
 
 
 <body class="">
     <div id="app">
 
-        <nav class="container container_text navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="navbar_img" src="./img/Resume.png"></a>
-                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto  mb-md-0">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" aria-current="page">
-
-                                <span class="navbar_span">首頁</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
-
-                                <span class="navbar_span">作品集</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
-
-                                <span class="navbar_span">服務項目</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
-
-                                <span class="navbar_span">部落格</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
-
-                                <span class="navbar_span">聯絡我</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-
-
-        <div class="row featurette">
-            <div class="col-md-5 title">
-                <h2 class="featurette-heading">Hi！我是 陳冠宇</h2>
-                <p class="title-p">具有一年經驗的前端學習者<br></p>
-                <span class="title-span">熱衷於網頁製作，勤奮的學習</span>
-                <div class="title-icon">
-                    <i class="bi bi-instagram "></i>
-                    <i class="bi bi-facebook icon"></i>
-                    <i class="bi bi-github icon"></i>
-                </div>
-            </div>
-            <div class="col-md-7 ">
-                <img src="./img/hero-lg.png" class="img-fluid title-img">
-            </div>
-        </div>
-
-
-
-
-        <h1 class="text-center project-tIntroduction-title">作品介紹</h1>
-
-
-        <div class="project-Introduction-perfume-img">
-            <div class="position-relative">
-                <div class="position-absolute bg-light bg-opacity-50 box">
-                    <h2 class="box-title">香水購物平台</h2>
-                    <p class="box-content">精緻香氛，尊享品質，網上選購便利。</p>
-                    <div class="box-bigtag border-bottom ps-2">
-                        <span class="box-tag">Node.js express</span>
-                        <span class="box-tag">響應式設計</span>
-                        <span class="box-tag">Bootstrap</span>
-                    </div>
-                    <div class="d-flex justify-content-center box-button-top">
-                        <button type="button" class="btn btn-dark box-button">完整內容</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="project-Introduction-drink-img">
-            <div class="position-relative">
-                <div class="position-absolute  bg-light bg-opacity-50  box-drink">
-                    <h2 class="box-title">快樂飲料店</h2>
-                    <p class="box-content">色彩繽紛，口感豐富，帶來快樂的飲品體驗。</p>
-                    <div class="box-bigtag border-bottom ps-2">
-                        <span class="box-tag">Node.js express</span>
-                        <span class="box-tag">響應式設計</span>
-                        <span class="box-tag">Pinia</span>
-                    </div>
-                    <div class="d-flex justify-content-center box-button-top">
-                        <button type="button" class="btn btn-dark box-button">完整內容</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="project-Introduction-game-img">
-            <div class="position-relative">
-                <div class="position-absolute  bg-light bg-opacity-50 box">
-                    <h2 class="box-title">Capoo vs Rabbit</h2>
-                    <p class="box-content">機制出招，享受遊戲</p>
-                    <div class="box-bigtag border-bottom ps-2">
-                        <span class="box-tag">響應式設計</span>
-                        <span class="box-tag">Vue</span>
-                        <span class="box-tag">Bootstrap</span>
-                    </div>
-                    <div class="d-flex justify-content-center box-button-top">
-                        <button type="button" class="btn btn-dark box-button">完整內容</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
+        <router-view></router-view>
 
     </div>
-
-    <!-- Vue script -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.37/vue.global.prod.js"></script>
 
     <script src=" https://cdnjs.cloudflare.com/ajax/libs/vue-demi/0.13.11/index.iife.js"></script>
@@ -162,6 +42,8 @@
     <script type="module" src="./app.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
 
 </body>
 
