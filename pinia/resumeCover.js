@@ -56,9 +56,9 @@ export default {
         <p class="title-p">具有一年經驗的前端學習者<br></p>
         <span class="title-span">熱衷於網頁製作，勤奮的學習</span>
         <div class="title-icon">
-            <i class="bi bi-instagram "></i>
-            <i class="bi bi-facebook icon"></i>
-            <i class="bi bi-github icon"></i>
+            <a href="https://www.instagram.com/chen012355/"><i class="bi bi-instagram icon"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW"><i class="bi bi-facebook icon"></i></a>
+            <a href="https://github.com/chenyu-0721/Readme"><i class="bi bi-github icon"></i></a>
         </div>
     </div>
     <div class="col-md-7 ">
@@ -143,7 +143,7 @@ export default {
     <h1 class="text-center project-Introduction-title">服務項目</h1>
 
     <div class="container ">
-        <div class="row row-cols-1  g-3 justify-content-center  ">
+        <div class="row row-cols-1 g-3  justify-content-center  ">
             <div class="border bg-dark text-white serviceContent-box ">
                 前端開發
             </div>
@@ -152,9 +152,6 @@ export default {
             </div>
             <div class="border bg-dark text-white serviceContent-box">
                 Vue框架
-            </div>
-            <div class="border bg-dark text-white serviceContent-box">
-                學習與熱忱
             </div>
         </div>
     </div>
@@ -251,14 +248,14 @@ export default {
                     </div>
 
                     <ul class="footer-nav-li col-md-4 justify-content-end list-unstyled d-flex flex-direction-column ">
-                        <li class="ms-3"><a class="text-muted" href="#">
+                        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
                                 <div><button type="button" class="btn btn-outline-dark footer-button"><i
                                             class="bi bi-facebook footer-icon"></i>Facebook</button>
                             </a></li>
-                        <li class="ms-3"><a class="text-muted" href="#"><button type="button"
+                        <li class="ms-3"><a class="text-muted" href="https://github.com/chenyu-0721/Readme"><button type="button"
                                     class="btn btn-outline-dark footer-button"><i
                                         class="bi bi-github footer-icon"></i>Github</button></a></li>
-                        <li class="ms-3"><a class="text-muted" href="#"><button type="button"
+                        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/chen012355/"><button type="button"
                                     class="btn btn-outline-dark footer-button"><i
                                         class="bi bi-instagram footer-icon"></i>Dark</button></a></li>
                     </ul>
