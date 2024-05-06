@@ -38,6 +38,7 @@ nav {
 
 .title-icon {
   padding-top: 60px;
+  padding-right:20px;
   font-size: 40px;
 }
 
@@ -49,59 +50,6 @@ nav {
   --bs-gutter-x: 0;
 }
 
-/* 在大屏幕上，保持原来的布局 */
-@media (min-width: 768px) {
-  .featurette .row {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .featurette .col-md-5 {
-    order: 1;
-  }
-
-  .featurette .col-md-7 {
-    order: 2;
-  }
-
-  /* 图片列的尺寸 */
-  .title-img {
-    width: 1150px;
-    height: 800px;
-  }
-}
-
-/* 在小屏幕上，改变布局 */
-@media (max-width: 767px) {
-  .featurette .row {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .featurette .col-md-5 {
-    order: 2;
-  }
-
-  .featurette .col-md-7 {
-    order: 1;
-  }
-
-  .title-p,
-  .title-span,
-  .title-icon {
-    text-align: center;
-  }
-
-  .box {
-    padding-top: 80px;
-    padding-bottom: 56px;
-    padding-left: 40px;
-    padding-right: 40px;
-    position: none;
-    width: 526px;
-    height: 400px;
-  }
-}
 
 /* * 作品介紹 */
 
@@ -153,6 +101,7 @@ nav {
   color: black;
   width: Hug (88px) px;
   height: Hug (32px) px;
+  margin-right: 8px;
   padding: 4px 12px 4px 12px;
   background-color: white;
   border-radius: 16px;
@@ -221,41 +170,7 @@ nav {
   font-size: 20px;
 }
 
-@media (max-width: 768px) {
-  .project-Introduction-perfume-img,
-  .project-Introduction-game-img,
-  .project-Introduction-drink-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    height: 800px;
-  }
 
-  .box {
-    display: flex !important;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: initial !important;
-    width: 483px !important;
-    height: 100% !important;
-  }
-
-  .box-drink {
-    display: flex !important;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: initial !important;
-    width: 483px !important;
-    height: 100% !important;
-  }
-}
 
 /* * 服務項目 */
 
@@ -298,11 +213,6 @@ nav {
   padding-bottom: 120px;
 }
 
-@media (max-width: 768px) {
-  .serviceContent-box {
-    margin-left: 0px;
-  }
-}
 
 /* * 精選文章 */
 
@@ -394,7 +304,103 @@ a {
 }
 
 @media (max-width: 768px) {
+
+  /* *封面 */
+  .featurette .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .featurette .col-md-5 {
+    order: 2;
+  }
+
+  .featurette .col-md-7 {
+    order: 1;
+  }
+
+  .title-p,
+  .title-span,
+  .title-icon {
+    text-align: center;
+  }
+
+  .box {
+    padding-top: 80px;
+    padding-bottom: 56px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: none;
+    width: 526px;
+    height: 400px;
+  }
+
+  /* *作品介紹  */
+  .project-Introduction-perfume-img,
+  .project-Introduction-game-img,
+  .project-Introduction-drink-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 800px;
+  }
+
+  .box {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: initial !important;
+    width: 483px !important;
+    height: 100% !important;
+  }
+
+  .box-drink {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: initial !important;
+    width: 483px !important;
+    height: 100% !important;
+  }
+
+  /* * 服務項目*/
+  .serviceContent-box {
+    margin-left: 0px;
+  }
+
+  /* * footer  */
   .footer-nav {
     flex-direction: column;
+  }
+
+}
+
+
+@media (min-width: 768px) {
+  /* * 封面  */
+  .featurette .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .featurette .col-md-5 {
+    order: 1;
+  }
+
+  .featurette .col-md-7 {
+    order: 2;
+  }
+
+ 
+  .title-img {
+    width: 1150px;
+    height: 800px;
   }
 }
