@@ -3,7 +3,7 @@ export default {
 
 
 
-  <nav class="container container_text navbar navbar-expand-lg navbar-light">
+  <nav class="container  container_text navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="navbar_img" src="./img/Resume.png"></a>
         <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
@@ -15,7 +15,6 @@ export default {
             <ul class="navbar-nav ms-auto  mb-md-0">
                 <li class="nav-item">
                     <a href="#" class="nav-link" aria-current="page">
-
                         <span class="navbar_span">首頁</span>
                     </a>
                 </li>
@@ -206,7 +205,7 @@ export default {
     </div>
     <div class="item">
         <img class="featured-img"
-            src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png">
         <span class="featured-content"><a href="https://vuejs.org/">Vue.js</a></span>
         <div class="featured-tag-pd">
             <span class="featured-tag">前端框架</span>
@@ -229,7 +228,7 @@ export default {
         </div>
     </div>
     <div class="item">
-        <img class="featured-img" src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png">
+        <img class="featured-img" src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
         <span class="featured-content"><a href="https://owlcarousel2.github.io/OwlCarousel2/">owl.carousel.js</a></span>
         <div class="featured-tag-pd">
             <span class="featured-tag">前端開發</span>
