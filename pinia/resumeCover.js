@@ -140,7 +140,7 @@ export default {
 <div class="bg-light">
 
 
-    <h1 class="text-center project-Introduction-title">服務項目</h1>
+    <h1 class="text-center project-Introduction-title ">服務項目</h1>
 
     <div class="container ">
         <div class="row row-cols-1 g-3  justify-content-center  ">
@@ -257,7 +257,7 @@ export default {
                                         class="bi bi-github footer-icon"></i>Github</button></a></li>
                         <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/chen012355/"><button type="button"
                                     class="btn btn-outline-dark footer-button"><i
-                                        class="bi bi-instagram footer-icon"></i>Dark</button></a></li>
+                                        class="bi bi-instagram footer-icon"></i>Instagram</button></a></li>
                     </ul>
                 </footer>
             </div>
