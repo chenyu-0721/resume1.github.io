@@ -62,7 +62,7 @@ export default {
 <div class="album second-pd">
   <div class="container">
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
-          <div class="col" data-bs-toggle="modal" data-bs-target="#perfume">
+          <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#perfume">
               <div class="card shadow-sm">
                   <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd"
                       class="card-img-top secondImg">
@@ -78,7 +78,7 @@ export default {
                   </div>
               </div>
           </div>
-          <div class="col" data-bs-toggle="modal" data-bs-target="#drink">
+          <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#drink">
               <div class="card shadow-sm">
                   <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87"
                       class="card-img-top secondImg">
@@ -93,7 +93,7 @@ export default {
                   </div>
               </div>
           </div>
-          <div class="col" data-bs-toggle="modal" data-bs-target="#game">
+          <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#game">
               <div class="card shadow-sm">
                   <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95"
                       class="card-img-top secondImg">
@@ -108,7 +108,7 @@ export default {
                   </div>
               </div>
           </div>
-          <div class="col" data-bs-toggle="modal" data-bs-target="#back">
+          <div class="col modal-hover" data-bs-toggle="modal" data-bs-target="#back">
               <div class="card shadow-sm">
                   <img src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                       class="card-img-top secondImg">
@@ -157,7 +157,7 @@ export default {
 
 
 
-<div class="modal fade" id="perfume"  data-bs-keyboard="false" tabindex="-1"
+<div class="modal fade" id="perfume"   tabindex="-1"
   aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
       <div class="modal-content">
@@ -204,7 +204,7 @@ export default {
 </div>
 
 
-<div class="modal fade" id="drink"  data-bs-keyboard="false" tabindex="-1"
+<div class="modal fade" id="drink" tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
@@ -250,7 +250,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 
 
-<class class="modal fade" id="game"  data-bs-keyboard="false" tabindex="-1"
+<class class="modal fade" id="game"   tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
@@ -295,7 +295,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 </class>
 
-<class class="modal fade" id="back"  data-bs-keyboard="false" tabindex="-1"
+<class class="modal fade" id="back"  tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
@@ -383,12 +383,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 
       $(document).on("click", ".jq-goTop", function (e) {
         e.preventDefault();
-        $("html,body").animate(
-          {
-            scrollTop: 0,
-          },
-          600
-        );
+        $("html,body").animate({
+          scrollTop: 0,
+        });
       });
     });
   },

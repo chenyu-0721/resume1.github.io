@@ -232,8 +232,8 @@ nav {
   margin-top: 0rem;
 }
 
-.owl-carousel.owl-hidden {
-  opacity: 1;
+.owl-hidden {
+  opacity: 1 !important;
 }
 
 .featured-img {
@@ -528,8 +528,8 @@ a {
 }
 
 .project-modal-img-content {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 24px;
   padding-top: 16px;
   padding-bottom: 56px;
@@ -579,4 +579,8 @@ a {
 .goTop .goTopBtn .bi-arrow-up-circle-fill {
   color: #3d82ad;
   font-size: 50px;
+}
+
+.modal-hover {
+  cursor: pointer;
 }

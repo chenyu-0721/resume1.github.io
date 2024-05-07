@@ -1,4 +1,9 @@
 export default {
+  data() {
+    return {
+      isCarouselInitialized: false,
+    };
+  },
   template: ` 
 
 
@@ -83,7 +88,7 @@ export default {
               <span class="box-tag">Bootstrap</span>
           </div>
           <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href="https://chenyu-0721.github.io/perfume2.0.github.io/#/"
+              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/perfume2.0.github.io/blob/main/README.md"
                   role="button">
                   完整內容
                   <i class="bi bi-arrow-right bi-right"></i>
@@ -106,7 +111,7 @@ export default {
               <span class="box-tag">Pinia</span>
           </div>
           <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href="https://chenyu-0721.github.io/drinkshop.github.io/#/"
+              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/drinkshop.github.io"
                   role="button">
                   完整內容
                   <i class="bi bi-arrow-right bi-right"></i>
@@ -127,7 +132,7 @@ export default {
               <span class="box-tag">Bootstrap</span>
           </div>
           <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href="https://chenyu-0721.github.io/monster.github.io/"
+              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/monster.github.io"
                   role="button">
                   完整內容
                   <i class="bi bi-arrow-right bi-right"></i>
@@ -167,7 +172,7 @@ export default {
 <div id="blog">
   <h1 class="text-center project-Introduction-title">精選文章</h1>
 </div>
-<div class="container owl-carousel owl-theme">
+<div class="container owl-carousel">
   <div class="item">
       <img class="featured-img"
           src="https://images.unsplash.com/photo-1621839673705-6617adf9e890?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
@@ -280,11 +285,18 @@ export default {
       loop: true, // 循環播放
       margin: 10, // 外距 10px
       nav: false, // 箭頭
+      responsiveClass: true,
+      autoplay: true,
+      autoplayTimeout: 2000,
+      autoplayHoverPause: true,
       responsive: {
         0: {
           items: 1, // 螢幕大小為 0~600 顯示 1 個項目
         },
-        600: {
+        700: {
+          items: 2, // 螢幕大小為 600~1000 顯示 3 個項目
+        },
+        1000: {
           items: 3, // 螢幕大小為 600~1000 顯示 3 個項目
         },
       },
@@ -297,12 +309,9 @@ export default {
       var targetPosition = $(targetAnchor).offset().top;
 
       // 使用动画效果滚动到目标位置
-      $("html, body").animate(
-        {
-          scrollTop: targetPosition,
-        },
-        100
-      );
+      $("html, body").animate({
+        scrollTop: targetPosition,
+      });
     });
 
     $(function () {
