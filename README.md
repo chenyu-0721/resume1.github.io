@@ -1,4 +1,4 @@
-![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/d0fa09a2-2cb0-4931-945e-bb175766691a)# 陳冠宇的個人履歷網站
+# 陳冠宇的個人履歷網站
 ![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/c3cfc89a-e787-49a8-8951-e5e1027fd6cf)
 
 # 首頁---觀察者
