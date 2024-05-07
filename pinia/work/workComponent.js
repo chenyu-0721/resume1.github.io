@@ -24,7 +24,7 @@ export default {
               <li class="nav-item">
                   <a href="#" class="nav-link " aria-current="page">
 
-                      <span class="navbar_span">服務項目</span>
+                      <span class="navbar_span ">服務項目</span>
                   </a>
               </li>
               <li class="nav-item">
