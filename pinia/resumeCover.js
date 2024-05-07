@@ -272,7 +272,7 @@ export default {
   </a>
 </div>
 
-</div>
+
 
   `,
   mounted() {

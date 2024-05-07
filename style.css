@@ -232,6 +232,10 @@ nav {
   margin-top: 0rem;
 }
 
+.owl-carousel.owl-hidden {
+  opacity: 1;
+}
+
 .featured-img {
   width: 416px;
   height: 234px;
