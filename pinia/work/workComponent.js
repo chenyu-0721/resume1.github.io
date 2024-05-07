@@ -157,7 +157,7 @@ export default {
 
 
 
-<div class="modal fade" id="perfume" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<div class="modal fade" id="perfume"  data-bs-keyboard="false" tabindex="-1"
   aria-labelledby="staticBackdropLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl">
       <div class="modal-content">
@@ -204,7 +204,7 @@ export default {
 </div>
 
 
-<div class="modal fade" id="drink" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<div class="modal fade" id="drink"  data-bs-keyboard="false" tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
@@ -250,7 +250,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 
 
-<class class="modal fade" id="game" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<class class="modal fade" id="game"  data-bs-keyboard="false" tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
@@ -295,7 +295,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 </class>
 
-<class class="modal fade" id="back" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+<class class="modal fade" id="back"  data-bs-keyboard="false" tabindex="-1"
 aria-labelledby="staticBackdropLabel" aria-hidden="true">
 <div class="modal-dialog modal-xl">
   <div class="modal-content">
