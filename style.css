@@ -64,7 +64,7 @@ nav {
 }
 
 .project-Introduction-perfume-img {
-  background-image: url("./img/perfumeCover.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/perfumeCover.jpg?alt=media&token=b42afeb3-6772-4f1a-a699-f179209c19b3");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -112,7 +112,7 @@ nav {
 }
 
 .project-Introduction-drink-img {
-  background-image: url("./img/drinkCover.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/drinkCover.jpg?alt=media&token=86d64a6d-e469-4224-8c1b-49b77342ff87");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -125,7 +125,7 @@ nav {
 }
 
 .project-Introduction-game-img {
-  background-image: url("./img/gameCover.jpg");
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/gameCover.jpg?alt=media&token=eeab175d-7604-49bf-bd39-a34779a77a95");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -424,7 +424,7 @@ a {
   line-height: 28.8px;
 }
 
-.second-img  {
+.second-img {
   display: flex;
   justify-content: center; /* 水平置中 */
   align-items: center; /* 垂直置中 */
@@ -482,4 +482,65 @@ a {
   max-height: 400px;
   gap: 0px;
   opacity: 0px;
+}
+
+.project-modal-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-modal-content {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding-top: 40px;
+  border-bottom: 10px;
+  border-color: blue;
+}
+
+.modal-header {
+  border-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.model-bgpd {
+  margin-top: 40px;
+  padding-top: 80px;
+}
+
+.modal-img {
+  width: 720px;
+  height: 488px;
+  border-radius: 20px;
+  margin-bottom: 24px;
+}
+
+.project-modal-img-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 16px;
+  padding-bottom: 56px;
+}
+
+/* * 圖片放大 */
+
+.enlarged-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.enlarged-image {
+  max-width: 90%;
+  max-height: 90%;
 }
