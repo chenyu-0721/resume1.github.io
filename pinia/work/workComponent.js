@@ -64,7 +64,7 @@ export default {
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
           <div class="col" data-bs-toggle="modal" data-bs-target="#perfume">
               <div class="card shadow-sm">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/perfumeCover.jpg?alt=media&token=8ee5ae9e-8f7c-4051-bb55-c81f82b330c9"
+                  <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/image%20(1).png?alt=media&token=a5284e56-fc5b-450f-a2d5-f6b4adc482dd"
                       class="card-img-top secondImg">
                   <div class="card-body">
                       <span class="SecondTitle">香水購物平台</span>
