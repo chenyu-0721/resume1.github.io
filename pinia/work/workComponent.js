@@ -64,7 +64,7 @@ export default {
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3">
           <div class="col" data-bs-toggle="modal" data-bs-target="#perfume">
               <div class="card shadow-sm">
-                  <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/perfumeCover.jpg?alt=media&token=b42afeb3-6772-4f1a-a699-f179209c19b3"
+                  <img src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/perfumeCover.jpg?alt=media&token=8ee5ae9e-8f7c-4051-bb55-c81f82b330c9"
                       class="card-img-top secondImg">
                   <div class="card-body">
                       <span class="SecondTitle">香水購物平台</span>
@@ -166,7 +166,7 @@ export default {
           </div>
           <div class="modal-body">
               <div class="project-modal-title">
-                  <span class="SecondTitle">香水購物平台</span>
+                  <span class="SecondTitle">香水購物平台<a href="https://chenyu-0721.github.io/perfume2.0.github.io/#/">Demo</a></span>
                   <span class="information">精緻香氣，尊享品質，往上選購便利</span>
               </div>
 
@@ -213,7 +213,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       </div>
       <div class="modal-body">
           <div class="project-modal-title">
-              <span class="SecondTitle">快樂飲料店</span>
+              <span class="SecondTitle">快樂飲料店<a href="https://chenyu-0721.github.io/drinkshop.github.io/#/">Demo</a></span>
               <span class="information">色彩繽紛，口感豐富，帶來快樂的飲品體驗。</span>
           </div>
 
@@ -259,7 +259,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       </div>
       <div class="modal-body">
           <div class="project-modal-title">
-              <span class="SecondTitle">Capoo vs Rabbit</span>
+              <span class="SecondTitle">Capoo vs Rabbit<a href="https://chenyu-0721.github.io/monster.github.io/"> Demo</a></span>
               <span class="information">機制出招，享受遊戲</span>
           </div>
 
@@ -304,7 +304,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
       </div>
       <div class="modal-body">
           <div class="project-modal-title">
-              <span class="SecondTitle">後端程式碼</span>
+              <span class="SecondTitle">後端程式碼<a href="https://chenyu-0721.github.io/perfume2.0.github.io/#/cart"></a></span>
               <span class="information">第一次寫Node.js Api</span>
           </div>
 
@@ -364,6 +364,7 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
         });
       });
     });
+
     $(function () {
       $(document).on("click", ".jq-adClose", function (event) {
         event.preventDefault();

@@ -74,7 +74,7 @@ export default {
 
 <div class="project-Introduction-perfume-img">
   <div class="position-relative">
-      <div class=" bg-light bg-opacity-50 box">
+      <div class="bg-light bg-opacity-50 box">
           <h2 class="box-title">香水購物平台</h2>
           <p class="box-content">精緻香氛，尊享品質，網上選購便利。</p>
           <div class="box-bigtag border-bottom ps-2">
