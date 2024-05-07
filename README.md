@@ -4,6 +4,7 @@
 # 首頁---觀察者
   - 可透過Nav的按鈕Scroll到對應的位置
   - 透過右下角的top可快速返回最上方
+    
    ![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/a7ca167d-7f0b-429b-b9d8-e9db083e7ead)
   - 了解製作者的作品內容、相關前端開發技術、參考文章、聯絡資訊
    ![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/d3653392-0bf2-4672-8b6b-d23d2cd0eb2a)
