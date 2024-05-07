@@ -506,6 +506,8 @@ a {
   padding-top: 40px;
   border-bottom: 10px;
   border-color: blue;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .modal-header {
