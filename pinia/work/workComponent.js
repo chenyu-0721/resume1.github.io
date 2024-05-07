@@ -340,6 +340,12 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 </class>
 
+<div class="goTop">
+  <a href="#" class="goTopBtn jq-goTop">
+      <i class="bi bi-arrow-up-circle-fill"></i>
+  </a>
+</div>
+
 `,
   mounted() {
     $(document).ready(function () {
@@ -347,15 +353,41 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
         var src = $(this).attr("src");
         var enlargedImage = $("<img>")
           .attr("src", src)
-          .addClass("enlarged-image"); 
+          .addClass("enlarged-image");
         var enlargedContainer = $("<div>")
           .addClass("enlarged-container")
-          .append(enlargedImage); 
-        $("body").append(enlargedContainer); 
+          .append(enlargedImage);
+        $("body").append(enlargedContainer);
 
         enlargedContainer.on("click", function () {
           $(this).remove();
         });
+      });
+    });
+    $(function () {
+      $(document).on("click", ".jq-adClose", function (event) {
+        event.preventDefault();
+        $(".adBox").fadeOut();
+      });
+
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 200) {
+          if ($(".goTop").hasClass("hide")) {
+            $(".goTop").toggleClass("hide");
+          }
+        } else {
+          $(".goTop").addClass("hide");
+        }
+      });
+
+      $(document).on("click", ".jq-goTop", function (e) {
+        e.preventDefault();
+        $("html,body").animate(
+          {
+            scrollTop: 0,
+          },
+          600
+        );
       });
     });
   },
