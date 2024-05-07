@@ -14,31 +14,31 @@ export default {
           <ul class="navbar-nav ms-auto  mb-md-0">
               <li class="nav-item">
                   <a href="#" class="nav-link" aria-current="page">
-                      <span class="navbar_span">首頁</span>
+                      <span class="navbar_span nav-font">首頁</span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#/work" class="nav-link " aria-current="page">
 
-                      <span class="navbar_span">作品集</span>
+                      <span class="navbar_span nav-font">作品集</span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#serve" class="nav-link anchor" aria-current="page">
 
-                      <span class="navbar_span">服務項目</span>
+                      <span class="navbar_span nav-font">服務項目</span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#blog" class="nav-link anchor" aria-current="page">
 
-                      <span class="navbar_span">部落格</span>
+                      <span class="navbar_span nav-font">精選文章</span>
                   </a>
               </li>
               <li class="nav-item">
-                  <a href="#callme" class="nav-link anchor" aria-current="page">
+                  <a href="#callme" class="nav-link anchor " aria-current="page">
 
-                      <span class="navbar_span">聯絡我</span>
+                      <span class="navbar_span nav-font">聯絡我</span>
                   </a>
               </li>
           </ul>

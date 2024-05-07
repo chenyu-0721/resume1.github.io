@@ -12,6 +12,10 @@ nav {
   color: red;
 }
 
+.nav-font {
+  font-size: 20px;
+}
+
 /* * 封面 */
 
 .featurette-heading {
