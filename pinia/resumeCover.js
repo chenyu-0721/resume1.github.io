@@ -264,7 +264,6 @@ export default {
 
 
 
-
   `,
   mounted() {
     $(".owl-carousel").owlCarousel({
@@ -280,6 +279,5 @@ export default {
         },
       },
     });
-    
   },
 };
