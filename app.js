@@ -1,7 +1,7 @@
 import resumeCover from "./pinia/resumeCover.js";
 import workComponent from "./pinia/work/workComponent.js";
 const { createApp } = Vue;
-const { createPinia } = Pinia;
+// const { createPinia } = Pinia;
 
 const routes = [
   { path: "/", component: resumeCover },
@@ -17,7 +17,7 @@ const app = createApp({
   components: { resumeCover, workComponent },
 });
 
-const pinia = createPinia();
+// const pinia = createPinia();
 app.use(router);
-app.use(pinia);
+// app.use(pinia);
 app.mount("#app");
