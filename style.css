@@ -277,6 +277,10 @@ nav {
   opacity: 0px;
 }
 
+.featured-span {
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -301,12 +305,12 @@ a {
 .footer-button {
   width: 306px;
   height: 72px;
-  font-size: 22px;
+  font-size: 25px;
   text-align: left;
 }
 
 .footer-icon {
-  font-size: 26px;
+  font-size: 25px;
   padding-right: 10px;
 }
 
@@ -496,7 +500,7 @@ a {
 }
 
 .hashtag {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   background: #f1f1f1;

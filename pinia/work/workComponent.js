@@ -173,9 +173,9 @@ export default {
               </div>
 
               <div class="project-modal-content">
-                  <span class="ps-3">香水購物平台為六角學院單人專題審核標準。<br>主要透過前端畫面網頁設計與後端API串接。</span>
+                  <span class="ps-3 featured-span">香水購物平台為六角學院單人專題審核標準。<br>主要透過前端畫面網頁設計與後端API串接。</span>
                   <div class="vr"></div>
-                  <span class="ps-3">設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
+                  <span class="ps-3 featured-span">設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
               </div>
               <div class="bg-light model-bgpd">
                   <div class="d-flex justify-content-center">
@@ -220,9 +220,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           </div>
 
           <div class="project-modal-content">
-              <span>快樂飲料店練習製作購物車功能的前端網頁<br>主要透過前端畫面網頁設計並透過假資料進行傳遞。</span>
+              <span class="ps-3 featured-span">快樂飲料店練習製作購物車功能的前端網頁<br>主要透過前端畫面網頁設計並透過假資料進行傳遞。</span>
               <div class="vr"></div>
-              <span>設計規則：各式飲料<br>開發方式：Vue, RWD, Bootstrap</span>
+              <span class="ps-3 featured-span">設計規則：各式飲料<br>開發方式：Vue, RWD, Bootstrap</span>
           </div>
           <div class="bg-light model-bgpd">
               <div class="d-flex justify-content-center">
@@ -266,9 +266,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           </div>
 
           <div class="project-modal-content">
-              <span>想法來自於貓狗大戰中，透過按鈕進行對戰。(面試作品用)<br>主要透過前端畫面網頁設計與Vue框架。</span>
+              <span class="ps-3 featured-span">想法來自於貓狗大戰中，透過按鈕進行對戰。(面試作品用)<br>主要透過前端畫面網頁設計與Vue框架。</span>
               <div class="vr"></div>
-              <span>設計規則：遊戲、咖波 <br>開發方式：Vue, RWD, Bootstrap</span>
+              <span class="ps-3 featured-span">設計規則：遊戲、咖波 <br>開發方式：Vue, RWD, Bootstrap</span>
           </div>
           <div class="bg-light model-bgpd">
               <div class="d-flex justify-content-center">
@@ -311,9 +311,9 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
           </div>
 
           <div class="project-modal-content">
-              <span>前端畫面是透過香水購物平台為主<br>主要透過前端畫面網頁設計與後端API串接。</span>
+              <span class="ps-3 featured-span">前端畫面是透過香水購物平台為主<br>主要透過前端畫面網頁設計與後端API串接。</span>
               <div class="vr"></div>
-              <span>設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
+              <span class="ps-3 featured-span">設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
           </div>
           <div class="bg-light model-bgpd">
               <div class="d-flex justify-content-center">
