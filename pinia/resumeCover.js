@@ -55,7 +55,7 @@ export default {
 
 <div class="row featurette">
   <div class="col-md-5 title">
-      <h2 class="featurette-heading">Hi！我是 陳冠宇</h2>
+      <h2 class="featurette-heading">嗨！我是 陳冠宇</h2>
       <p class="title-p">具有一年經驗的前端學習者<br></p>
       <span class="title-span">熱衷於網頁製作，勤奮的學習</span>
       <div class="title-icon">
@@ -212,7 +212,7 @@ export default {
       </div>
   </div>
   <div class="item">
-      <img class="featured-img" src="https://owlcarousel2.github.io/OwlCarousel2/assets/img/owl-logo.png">
+      <img class="featured-img" src="/img/vue.jpg">
       <span class="featured-content"><a href="https://vuejs.org/">Vue.js</a></span>
       <div class="featured-tag-pd">
           <span class="featured-tag">前端框架</span>

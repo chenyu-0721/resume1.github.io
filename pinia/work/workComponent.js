@@ -45,13 +45,15 @@ export default {
 </nav>
 
 
-<section class="py-5 text-center second-img  ">
+<section class="py-5  second-img  ">
   <div class="container">
       <div class="row py-lg-5 ">
-          <div class="col-lg-6 col-md-8 mx-auto">
+          <div class="col-lg-6 col-md-8 second-img-content">
 
-              <h1 class="fw-light second-content pt-5">使用者觀賞的旅程中，發現設計者的價值</h1>
-              <h1 class="fw-light second-content">我在開發的過程中，看見自己的成長</h1>
+              <h1 class="fw-light second-content ">使用者觀賞的旅程中發現</h1>
+              <h1 class="fw-light second-content ">發現設計者的價值</h1>
+              <h1 class="fw-light second-content pt-4">我在開發的過程中</h1>
+              <h1 class="fw-light second-content ">看見自己的成長</h1>
           </div>
       </div>
   </div>
@@ -171,9 +173,9 @@ export default {
               </div>
 
               <div class="project-modal-content">
-                  <span>香水購物平台為六角學院單人專題審核標準。<br>主要透過前端畫面網頁設計與後端API串接。</span>
+                  <span class="ps-3">香水購物平台為六角學院單人專題審核標準。<br>主要透過前端畫面網頁設計與後端API串接。</span>
                   <div class="vr"></div>
-                  <span>設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
+                  <span class="ps-3">設計規則：香水、淡色系<br>開發方式：Node.js express, RWD, Bootstrap</span>
               </div>
               <div class="bg-light model-bgpd">
                   <div class="d-flex justify-content-center">

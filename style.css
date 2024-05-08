@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "Tinos", "Noto Sans TC", serif;
+}
+
 /* * nav */
 nav {
   padding: 32px !important;
@@ -9,11 +15,15 @@ nav {
 }
 
 .navbar_span:hover {
-  color: red;
+  color: gray;
 }
 
 .nav-font {
-  font-size: 20px;
+  font-size: 22px;
+}
+
+.nav-title {
+  font-size: 30px;
 }
 
 /* * 封面 */
@@ -37,7 +47,7 @@ nav {
 .title-p,
 .title-span {
   padding-top: 8px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .title-p {
@@ -91,6 +101,7 @@ nav {
   height: 400px;
   top: 250px;
   right: 315px;
+  border-radius: 10px;
 }
 
 .box-title {
@@ -100,11 +111,11 @@ nav {
 }
 
 .box-content {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .box-tag {
-  font-size: 16px;
+  font-size: 18px;
   color: black;
   width: Hug (88px) px;
   height: Hug (32px) px;
@@ -151,6 +162,7 @@ nav {
   height: 400px;
   top: 250px;
   left: 315px;
+  border-radius: 10px;
 }
 
 .box-bigtag {
@@ -174,7 +186,7 @@ nav {
   padding-left: 8px;
   width: 24px;
   height: 24px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* * 服務項目 */
@@ -245,7 +257,7 @@ nav {
 }
 
 .featured-content {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 24px;
   text-align: left;
@@ -289,7 +301,7 @@ a {
 .footer-button {
   width: 306px;
   height: 72px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
 
@@ -303,11 +315,11 @@ a {
 }
 
 .footer-content {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .footer-tag {
-  font-size: 20px;
+  font-size: 22px;
   color: #919191;
 }
 
@@ -427,19 +439,21 @@ a {
 /* * 第二面作品集  */
 
 .second-content {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: bold !important;
+  margin-top: 10px;
+  color: rgb(112, 16, 16);
   line-height: 28.8px;
 }
 
 .second-img {
   display: flex;
-  justify-content: center; /* 水平置中 */
-  align-items: center; /* 垂直置中 */
+  justify-content: center;
+  align-items: center;
 }
 
 .second-title-color {
-  color: red !important;
+  color: gray !important;
 }
 
 .second-pd {
@@ -448,12 +462,18 @@ a {
 }
 
 .second-img {
-  background-image: url("https://images.unsplash.com/photo-1542349314-b0ceb4d90f2d?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("./img/bookBg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  height: 460px;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.second-img-content {
+  margin-right: auto !important;
 }
 
 .SecondTitle {
@@ -464,7 +484,7 @@ a {
 }
 
 .information {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   padding-top: 8px;
@@ -476,7 +496,7 @@ a {
 }
 
 .hashtag {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 24px;
   background: #f1f1f1;
@@ -528,7 +548,7 @@ a {
 }
 
 .project-modal-img-content {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   line-height: 24px;
   padding-top: 16px;
