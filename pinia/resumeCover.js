@@ -88,7 +88,7 @@ export default {
               <span class="box-tag">Bootstrap</span>
           </div>
           <div class="d-flex justify-content-center box-button-top">
-              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/perfume2.0.github.io/blob/main/README.md"
+              <a class="btn btn-dark box-button" href="https://github.com/chenyu-0721/perfume2.0.github.io"
                   role="button">
                   完整內容
                   <i class="bi bi-arrow-right bi-right"></i>
