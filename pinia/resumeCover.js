@@ -212,7 +212,7 @@ export default {
       </div>
   </div>
   <div class="item">
-      <img class="featured-img" src="/img/vue.jpg">
+      <img class="featured-img" src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/vue.jpg?alt=media&token=1fc8ca0e-364e-47c9-bc76-ea603f496bbb">
       <span class="featured-content"><a href="https://vuejs.org/">Vue.js</a></span>
       <div class="featured-tag-pd">
           <span class="featured-tag">前端框架</span>
