@@ -39,5 +39,16 @@
 ## 透過連結可取得詳細的作品資訊 
 - GITGUB PAGE ： https://chenyu-0721.github.io/resume1.github.io/#/
 
+## 圖片來源
+- [unsplash](https://unsplash.com/s/photos/code)
 
+
+## 關於作者
+- 暱稱：點點
+- 狀態：前端開發一年學習者
+- 專業：前端開發、RWD
+- 信箱：chen630602@gmail.com
+
+## 聲明
+- 本作品的圖片內容，非營利使用，純粹為前端專題練習
     
