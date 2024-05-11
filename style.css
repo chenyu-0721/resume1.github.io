@@ -5,27 +5,185 @@ body {
 }
 
 /* * nav */
-nav {
-  padding: 32px !important;
+/* * 開始 首頁 Nav */
+
+.resume-cover-nav-li,
+.resume-cover-nav-li-padding {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #000000;
 }
 
-.navbar_span {
-  color: black;
-  font-weight: bold;
+.resume-cover-nav-li-padding {
+  padding-left: 40px;
 }
 
-.navbar_span:hover {
-  color: gray;
+.resume-cover-nav-margin {
+  margin-left: 318px;
 }
 
-.nav-font {
-  font-size: 22px;
+/* * 共通 nav hover 框框 */
+
+.nav-hover-upperLeft {
+  top: 0px;
+  left: 0px;
+  margin-left: 40px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft {
+  left: 0;
+  bottom: 0;
+  margin-left: 40px;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-upperLeft,
+.nav-hover-upperRight,
+.nav-hover-lowerRight,
+.nav-hover-lowerLeft {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: none;
 }
 
-.nav-title {
-  font-size: 30px;
+.nav-link {
+  position: relative;
+  display: inline-block;
 }
 
+.nav-link:hover .nav-hover-upperLeft,
+.nav-link:hover .nav-hover-upperRight,
+.nav-link:hover .nav-hover-lowerRight,
+.nav-link:hover .nav-hover-lowerLeft {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+/* * Nav框框終點 */
+
+/* * 點擊Nav該頁面特效  */
+
+.nav-hover-upperLeft-StopPage,
+.nav-hover-upperRight-StopPage,
+.nav-hover-lowerRight-StopPage,
+.nav-hover-lowerLeft-StopPage {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-link:hover .nav-hover-upperLeft-StopPage,
+.nav-link:hover .nav-hover-upperRight-StopPage,
+.nav-link:hover .nav-hover-lowerRight-StopPage,
+.nav-link:hover .nav-hover-lowerLeft-StopPage {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+.nav-hover-upperLeft-StopPage {
+  top: 0;
+  left: 0px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight-StopPage {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight-StopPage {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft-StopPage {
+  left: 0;
+  bottom: 0;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+
+/* * Nav padding 特效 */
+
+.nav-hover-upperLeft-StopPage-padding,
+.nav-hover-upperRight-StopPage-padding,
+.nav-hover-lowerRight-StopPage-padding,
+.nav-hover-lowerLeft-StopPage-padding {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+.nav-link:hover .nav-hover-upperLeft-StopPage-padding,
+.nav-link:hover .nav-hover-upperRight-StopPage-padding,
+.nav-link:hover .nav-hover-lowerRight-StopPage-padding,
+.nav-link:hover .nav-hover-lowerLeft-StopPage-padding {
+  display: block !important; /* 鼠标悬停时显示 */
+}
+
+.nav-hover-upperLeft-StopPage-padding {
+  top: 0;
+  left: 40px;
+  border-top: 1px solid #919191;
+  border-left: 1px solid #919191;
+}
+.nav-hover-upperRight-StopPage-padding {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #919191;
+  border-right: 1px solid #919191;
+}
+.nav-hover-lowerRight-StopPage-padding {
+  right: 0;
+  bottom: 0;
+  border-right: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+.nav-hover-lowerLeft-StopPage-padding {
+  left: 40px;
+  bottom: 0;
+  border-left: 1px solid #919191;
+  border-bottom: 1px solid #919191;
+}
+
+/* * Nav Media 768px  */
+
+@media (max-width: 768px) {
+  .resume-cover-nav-margin {
+    margin-left: 0px;
+  }
+
+  /* * 作品集 服務項目 部落格 聯絡我 padding的導覽列 小螢幕*/
+  .nav-hover-upperLeft-StopPage-padding {
+    left: 0px;
+  }
+  .nav-hover-lowerLeft-StopPage-padding {
+    left: 0px;
+  }
+}
+
+/* * 首頁自我介紹 992PX*/
+@media (max-width: 1200px) {
+  .resume-cover-nav-li-padding {
+    padding-left: 0px;
+  }
+}
 /* * 封面 */
 
 .featurette-heading {

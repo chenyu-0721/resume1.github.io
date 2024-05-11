@@ -3,46 +3,66 @@ export default {
 
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img class="navbar_img" src="./img/Resume.png"></a>
+      <a class="navbar-brand" href="#"><img class="navbar_img"
+              src="/img/Resume.png"></a>
       <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav ms-auto  mb-md-0">
-              <li class="nav-item">
-                  <a href="#" class="nav-link" aria-current="page">
-                      <span class="navbar_span nav-font">首頁</span>
+          <ul class="navbar-nav resume-cover-nav-margin">
+              <li class="nav-item ">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li-padding">首頁</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#/work" class="nav-link" aria-current="page">
-                      <span class="navbar_span second-title-color nav-font">作品集</span>
+                      <span class="resume-cover-nav-li-padding">作品集</span>
+                      <span class="nav-hover-upperLeft-StopPage-padding"></span>
+                      <span class="nav-hover-upperRight-StopPage"></span>
+                      <span class="nav-hover-lowerRight-StopPage-padding"></span>
+                      <span class="nav-hover-lowerLeft-StopPage-padding"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/serve" class="nav-link" aria-current="page">
+                      <span class="resume-cover-nav-li-padding">服務項目</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#blog" class="nav-link " aria-current="page">
+
+                      <span class="resume-cover-nav-li-padding">部落格</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#" class="nav-link " aria-current="page">
-
-                      <span class="navbar_span nav-font">服務項目</span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link " aria-current="page">
-
-                      <span class="navbar_span nav-font">精選文章</span>
-                  </a>
-              </li>
-              <li class="nav-item">
-                  <a href="#" class="nav-link " aria-current="page">
-
-                      <span class="navbar_span nav-font">聯絡我</span>
+                      <span class="resume-cover-nav-li-padding">聯絡我</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
                   </a>
               </li>
           </ul>
       </div>
   </div>
 </nav>
+
 
 
 <section class="py-5  second-img  ">
