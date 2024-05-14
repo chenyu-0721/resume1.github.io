@@ -10,7 +10,7 @@ export default {
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img class="navbar_img"
-                        src="/img/Resume.png"></a>
+                        src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/Resume.png?alt=media&token=5c1b28b5-1b4c-4edd-b364-10e9800f76c3"></a>
                 <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -37,7 +37,7 @@ export default {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#/serve" class="nav-link" aria-current="page">
+                            <a href="#" class="nav-link" aria-current="page">
 
                                 <span class="resume-cover-nav-li-padding">服務項目</span>
                                 <span class="nav-hover-upperLeft"></span>
@@ -47,7 +47,7 @@ export default {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#blog" class="nav-link " aria-current="page">
+                            <a href="#" class="nav-link " aria-current="page">
 
                                 <span class="resume-cover-nav-li-padding">部落格</span>
                                 <span class="nav-hover-upperLeft"></span>
@@ -263,29 +263,31 @@ export default {
   </div>
 </div>
 
-<div class="bg-light" id="callme">
-  <div class="container " style="padding-bottom:40px">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-nav">
-          <div class="col-md-4 d-flex">
-              <h1 class="footer-title">陳冠宇<br><span class="footer-content">若有前端正職、後端實習工作職缺。<br><span
-                          class="footer-content">歡迎與我聯繫！</span><br><span
-                          class="footer-tag">chen630602@gmail.com</span>
-              </h1>
+<div class="anypage-footer-img" id="callme">
+  <div class="container">
+      <footer class="anypage-footer">
+          <div class="anypage-footer-box1">
+              <span class="anypage-footer-box-content">陳冠宇</span>
+              <span class="anypage-footer-box-content">若有前端正職、後端實習工作職缺。</span> 
+              <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
+              <span class="anypage-footer-box-gmail">chen630602@gmail.com
+              </span>
           </div>
+          <div class="anypage-footer-box2">
+          <a class="text-muted"
+          href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
+          <div><button type="button" class="btn btn-outline-dark footer-button"><i
+                      class="bi bi-facebook footer-icon"></i>Facebook</button></a>
 
-          <ul class="footer-nav-li col-md-4 justify-content-end list-unstyled d-flex flex-direction-column ">
-              <li class="ms-3"><a class="text-muted"
-                      href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
-                      <div><button type="button" class="btn btn-outline-dark footer-button"><i
-                                  class="bi bi-facebook footer-icon"></i>Facebook</button>
-                  </a></li>
-              <li class="ms-3"><a class="text-muted" href="https://github.com/chenyu-0721/Readme"><button
+                      <a class="text-muted" href="https://github.com/chenyu-0721/Readme"><button
+                      type="button" class="btn btn-outline-dark footer-button"><i
+                          class="bi bi-github footer-icon"></i>Github</button></a>
+
+                          <a class="text-muted" href="https://www.instagram.com/chen012355/"><button
                           type="button" class="btn btn-outline-dark footer-button"><i
-                              class="bi bi-github footer-icon"></i>Github</button></a></li>
-              <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/chen012355/"><button
-                          type="button" class="btn btn-outline-dark footer-button"><i
-                              class="bi bi-instagram footer-icon"></i>Instagram</button></a></li>
-          </ul>
+                              class="bi bi-instagram footer-icon"></i>Instagram</button></a>
+
+          </div>
       </footer>
   </div>
 </div>

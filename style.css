@@ -766,3 +766,118 @@ a {
 .modal-hover {
   cursor: pointer;
 }
+
+/* * Footer  */
+
+.anypage-footer-img {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/homework2-4f72e.appspot.com/o/footer-lg.png?alt=media&token=ae3be735-f3bc-441a-bbde-86a707aec50e");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 424px;
+}
+
+.anypage-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anypage-footer-box1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.anypage-footer-box2 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.anypage-footer-box-Noel {
+  width: 120px;
+  height: 54px;
+  margin: 119px 0 24px 0;
+}
+
+.anypage-footer-box-content {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(59, 59, 59, 1);
+}
+
+.anypage-footer-box-gmail {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(145, 145, 145, 1);
+  padding: 24px 0 0 0;
+}
+
+.anypage-footer-box-firstButton {
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.anypage-footer-box-Button {
+  width: 306px;
+  height: 72px;
+  padding: 8px 24px 8px 24px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 1626px) {
+  /* * Footer 小螢幕 */
+  .anypage-footer-img {
+    height: auto;
+  }
+
+  .anypage-footer {
+    display: inline;
+  }
+  .anypage-footer-box1 {
+    align-items: center;
+  }
+
+  .anypage-footer-box2 {
+    display: block;
+    text-align: center;
+  }
+
+  .anypage-footer-box-Noel {
+    margin: 40px 0 24px 0;
+    width: 120px;
+    height: 54px;
+  }
+
+  .anypage-footer-box-content {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .anypage-footer-box-gmail {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(145, 145, 145, 1);
+    padding: 24px 0 0 0;
+  }
+
+  .anypage-footer-box-firstButton {
+    margin-top: 40px;
+  }
+
+  .anypage-footer-box-Button {
+    height: 64px;
+    padding: 4px 24px 4px 24px;
+  }
+}
