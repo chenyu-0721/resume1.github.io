@@ -22,7 +22,7 @@
 - 透過 Vue-router 進行路由管制
 
 ### owl-carousel 套件
-- 使用owl-carousel的輪播套件，讓使用者能每隔一定的時間瀏覽到各式的文章
+- 使用 owl-carousel 的輪播套件，讓使用者能每隔一定的時間瀏覽到各式的文章
 
 ### 其他使用的套件
 - bootstrap-icons 1.7.2 - 部分圖示
@@ -33,7 +33,7 @@
 ## 作品集頁面
 ![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/0b6856f4-2a87-467c-bea6-a9ec739a1f2f)
 
-## 作品介紹 modal視窗
+## 作品介紹 modal 視窗
 ![image](https://github.com/chenyu-0721/resume1.github.io/assets/59197038/ed558e92-e91f-441f-b5f2-044d84035ca9)
 
 ## 透過連結可取得詳細的作品資訊 
