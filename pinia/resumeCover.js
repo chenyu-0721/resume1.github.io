@@ -20,16 +20,16 @@ export default {
                     <ul class="navbar-nav resume-cover-nav-margin">
                         <li class="nav-item ">
                             <a href="#" class="nav-link " aria-current="page">
-                                <span class="resume-cover-nav-li-padding">首頁</span>
-                                <span class="nav-hover-upperLeft-StopPage-padding"></span>
-                                <span class="nav-hover-upperRight-StopPage-padding"></span>
-                                <span class="nav-hover-lowerRight-StopPage-padding"></span>
-                                <span class="nav-hover-lowerLeft-StopPage-padding"></span>
+                                <span class="resume-cover-nav-li">首頁</span>
+                                <span class="nav-hover-upperLeft-StopPage"></span>
+                                <span class="nav-hover-upperRight-StopPage"></span>
+                                <span class="nav-hover-lowerRight-StopPage"></span>
+                                <span class="nav-hover-lowerLeft-StopPage"></span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="#/work" class="nav-link" aria-current="page">
-                                <span class="resume-cover-nav-li-padding">作品集</span>
+                                <span class="resume-cover-nav-li">作品集</span>
                                 <span class="nav-hover-upperLeft"></span>
                                 <span class="nav-hover-upperRight"></span>
                                 <span class="nav-hover-lowerRight"></span>
@@ -39,7 +39,7 @@ export default {
                         <li class="nav-item">
                             <a href="#" class="nav-link" aria-current="page">
 
-                                <span class="resume-cover-nav-li-padding">服務項目</span>
+                                <span class="resume-cover-nav-li">服務項目</span>
                                 <span class="nav-hover-upperLeft"></span>
                                 <span class="nav-hover-upperRight"></span>
                                 <span class="nav-hover-lowerRight"></span>
@@ -49,7 +49,7 @@ export default {
                         <li class="nav-item">
                             <a href="#" class="nav-link " aria-current="page">
 
-                                <span class="resume-cover-nav-li-padding">部落格</span>
+                                <span class="resume-cover-nav-li">部落格</span>
                                 <span class="nav-hover-upperLeft"></span>
                                 <span class="nav-hover-upperRight"></span>
                                 <span class="nav-hover-lowerRight"></span>
@@ -58,7 +58,7 @@ export default {
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link " aria-current="page">
-                                <span class="resume-cover-nav-li-padding">聯絡我</span>
+                                <span class="resume-cover-nav-li">聯絡我</span>
                                 <span class="nav-hover-upperLeft"></span>
                                 <span class="nav-hover-upperRight"></span>
                                 <span class="nav-hover-lowerRight"></span>
@@ -266,14 +266,14 @@ export default {
 <div class="anypage-footer-img" id="callme">
   <div class="container">
       <footer class="anypage-footer">
-          <div class="anypage-footer-box1">
+          <div class="anypage-footer-box1 col-sm-3">
               <span class="anypage-footer-box-content">陳冠宇</span>
               <span class="anypage-footer-box-content">若有前端正職、後端實習工作職缺。</span> 
               <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
               <span class="anypage-footer-box-gmail">chen630602@gmail.com
               </span>
           </div>
-          <div class="anypage-footer-box2">
+          <div class="anypage-footer-box2 col-sm-3">
           <a class="text-muted"
           href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
           <div><button type="button" class="btn btn-outline-dark footer-button"><i

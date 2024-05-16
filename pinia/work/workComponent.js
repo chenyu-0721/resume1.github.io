@@ -14,7 +14,7 @@ export default {
           <ul class="navbar-nav resume-cover-nav-margin">
               <li class="nav-item ">
                   <a href="#" class="nav-link " aria-current="page">
-                      <span class="resume-cover-nav-li-padding">首頁</span>
+                      <span class="resume-cover-nav-li">首頁</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -23,16 +23,16 @@ export default {
               </li>
               <li class="nav-item">
                   <a href="#/work" class="nav-link" aria-current="page">
-                      <span class="resume-cover-nav-li-padding">作品集</span>
-                      <span class="nav-hover-upperLeft-StopPage-padding"></span>
+                      <span class="resume-cover-nav-li">作品集</span>
+                      <span class="nav-hover-upperLeft-StopPage"></span>
                       <span class="nav-hover-upperRight-StopPage"></span>
-                      <span class="nav-hover-lowerRight-StopPage-padding"></span>
-                      <span class="nav-hover-lowerLeft-StopPage-padding"></span>
+                      <span class="nav-hover-lowerRight-StopPage"></span>
+                      <span class="nav-hover-lowerLeft-StopPage"></span>
                   </a>
               </li>
               <li class="nav-item">
                   <a href="#" class="nav-link" aria-current="page">
-                      <span class="resume-cover-nav-li-padding">服務項目</span>
+                      <span class="resume-cover-nav-li">服務項目</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -42,7 +42,7 @@ export default {
               <li class="nav-item">
                   <a href="#" class="nav-link " aria-current="page">
 
-                      <span class="resume-cover-nav-li-padding">部落格</span>
+                      <span class="resume-cover-nav-li">部落格</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>
@@ -51,7 +51,7 @@ export default {
               </li>
               <li class="nav-item">
                   <a href="#" class="nav-link " aria-current="page">
-                      <span class="resume-cover-nav-li-padding">聯絡我</span>
+                      <span class="resume-cover-nav-li">聯絡我</span>
                       <span class="nav-hover-upperLeft"></span>
                       <span class="nav-hover-upperRight"></span>
                       <span class="nav-hover-lowerRight"></span>

@@ -27,9 +27,8 @@ body {
 /* * 共通 nav hover 框框 */
 
 .nav-hover-upperLeft {
-  top: 0px;
-  left: 0px;
-  margin-left: 40px;
+  top: 0;
+  left: 0;
   border-top: 1px solid #919191;
   border-left: 1px solid #919191;
 }
@@ -48,7 +47,6 @@ body {
 .nav-hover-lowerLeft {
   left: 0;
   bottom: 0;
-  margin-left: 40px;
   border-left: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
