@@ -264,16 +264,16 @@ export default {
 </div>
 
 <div class="anypage-footer-img" id="callme">
-  <div class="container">
+  <div class="container col-sm-3">
       <footer class="anypage-footer">
-          <div class="anypage-footer-box1 col-sm-3">
+          <div class="anypage-footer-box1 ">
               <span class="anypage-footer-box-content">陳冠宇</span>
               <span class="anypage-footer-box-content">若有前端正職、後端實習工作職缺。</span> 
               <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
               <span class="anypage-footer-box-gmail">chen630602@gmail.com
               </span>
           </div>
-          <div class="anypage-footer-box2 col-sm-3">
+          <div class="anypage-footer-box2 ">
           <a class="text-muted"
           href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
           <div><button type="button" class="btn btn-outline-dark footer-button"><i
