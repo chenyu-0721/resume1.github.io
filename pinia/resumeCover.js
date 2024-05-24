@@ -263,34 +263,33 @@ export default {
   </div>
 </div>
 
-<div class="anypage-footer-img" id="callme">
-  <div class="container col-sm-3">
-      <footer class="anypage-footer">
-          <div class="anypage-footer-box1 ">
-              <span class="anypage-footer-box-content">陳冠宇</span>
-              <span class="anypage-footer-box-content">若有前端正職、後端實習工作職缺。</span> 
-              <span class="anypage-footer-box-content">歡迎與我聯繫！</span>
-              <span class="anypage-footer-box-gmail">chen630602@gmail.com
-              </span>
+<div class="bg-light">
+  <div class="container " style="padding-bottom:40px">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 footer-nav">
+          <div class="col-md-4 d-flex">
+              <h1 class="footer-title">陳冠宇<br><span class="footer-content">若有前端正職、後端實習工作職缺。<br><span
+                          class="footer-content">歡迎與我聯繫！</span><br><span
+                          class="footer-tag">chen630602@gmail.com</span>
+              </h1>
           </div>
-          <div class="anypage-footer-box2 ">
-          <a class="text-muted"
-          href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
-          <div><button type="button" class="btn btn-outline-dark footer-button"><i
-                      class="bi bi-facebook footer-icon"></i>Facebook</button></a>
 
-                      <a class="text-muted" href="https://github.com/chenyu-0721/Readme"><button
-                      type="button" class="btn btn-outline-dark footer-button"><i
-                          class="bi bi-github footer-icon"></i>Github</button></a>
-
-                          <a class="text-muted" href="https://www.instagram.com/chen012355/"><button
+          <ul class="footer-nav-li col-md-4 justify-content-end list-unstyled d-flex flex-direction-column ">
+              <li class="ms-3"><a class="text-muted"
+                      href="https://www.facebook.com/profile.php?id=100000503690781&locale=zh_TW">
+                      <div><button type="button" class="btn btn-outline-dark footer-button"><i
+                                  class="bi bi-facebook footer-icon"></i>Facebook</button>
+                  </a></li>
+              <li class="ms-3"><a class="text-muted" href="https://github.com/chenyu-0721/Readme"><button
                           type="button" class="btn btn-outline-dark footer-button"><i
-                              class="bi bi-instagram footer-icon"></i>Instagram</button></a>
-
-          </div>
+                              class="bi bi-github footer-icon"></i>Github</button></a></li>
+              <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/chen012355/"><button
+                          type="button" class="btn btn-outline-dark footer-button"><i
+                              class="bi bi-instagram footer-icon"></i>Instagram</button></a></li>
+          </ul>
       </footer>
   </div>
 </div>
+
 
 <div class="goTop">
   <a href="#" class="goTopBtn jq-goTop">
