@@ -5,70 +5,72 @@ export default {
     };
   },
   template: ` 
-
-
+  
+  <div class="border-bottom">
   <nav class="container  container_text navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img class="navbar_img"
-                        src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/Resume.png?alt=media&token=5c1b28b5-1b4c-4edd-b364-10e9800f76c3"></a>
-                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav resume-cover-nav-margin">
-                        <li class="nav-item ">
-                            <a href="#" class="nav-link " aria-current="page">
-                                <span class="resume-cover-nav-li">首頁</span>
-                                <span class="nav-hover-upperLeft-StopPage"></span>
-                                <span class="nav-hover-upperRight-StopPage"></span>
-                                <span class="nav-hover-lowerRight-StopPage"></span>
-                                <span class="nav-hover-lowerLeft-StopPage"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#/work" class="nav-link" aria-current="page">
-                                <span class="resume-cover-nav-li">作品集</span>
-                                <span class="nav-hover-upperLeft"></span>
-                                <span class="nav-hover-upperRight"></span>
-                                <span class="nav-hover-lowerRight"></span>
-                                <span class="nav-hover-lowerLeft"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" aria-current="page">
+  <div class="container-fluid">
+      <a class="navbar-brand " href="#"><img class="navbar_img"
+              src="https://firebasestorage.googleapis.com/v0/b/resume-84d0c.appspot.com/o/Resume.png?alt=media&token=5c1b28b5-1b4c-4edd-b364-10e9800f76c3
+              "></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav resume-cover-nav-margin">
+              <li class="nav-item ">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">首頁</span>
+                      <span class="nav-hover-upperLeft-StopPage"></span>
+                      <span class="nav-hover-upperRight-StopPage"></span>
+                      <span class="nav-hover-lowerRight-StopPage"></span>
+                      <span class="nav-hover-lowerLeft-StopPage"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#/work" class="nav-link" aria-current="page">
+                      <span class="resume-cover-nav-li">作品集</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link" aria-current="page">
 
-                                <span class="resume-cover-nav-li">服務項目</span>
-                                <span class="nav-hover-upperLeft"></span>
-                                <span class="nav-hover-upperRight"></span>
-                                <span class="nav-hover-lowerRight"></span>
-                                <span class="nav-hover-lowerLeft"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">服務項目</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link " aria-current="page">
 
-                                <span class="resume-cover-nav-li">部落格</span>
-                                <span class="nav-hover-upperLeft"></span>
-                                <span class="nav-hover-upperRight"></span>
-                                <span class="nav-hover-lowerRight"></span>
-                                <span class="nav-hover-lowerLeft"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link " aria-current="page">
-                                <span class="resume-cover-nav-li">聯絡我</span>
-                                <span class="nav-hover-upperLeft"></span>
-                                <span class="nav-hover-upperRight"></span>
-                                <span class="nav-hover-lowerRight"></span>
-                                <span class="nav-hover-lowerLeft"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+                      <span class="resume-cover-nav-li">部落格</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+              <li class="nav-item">
+                  <a href="#" class="nav-link " aria-current="page">
+                      <span class="resume-cover-nav-li">聯絡我</span>
+                      <span class="nav-hover-upperLeft"></span>
+                      <span class="nav-hover-upperRight"></span>
+                      <span class="nav-hover-lowerRight"></span>
+                      <span class="nav-hover-lowerLeft"></span>
+                  </a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+</div>
 
 
 

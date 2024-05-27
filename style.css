@@ -7,17 +7,24 @@ body {
 /* * nav */
 /* * 開始 首頁 Nav */
 
-.resume-cover-nav-li,
-.resume-cover-nav-li-padding {
+/* * nav */
+nav {
+  padding: 32px !important;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+/* * 開始 首頁 Nav */
+
+.resume-cover-nav-li {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
   color: #000000;
-}
-
-.resume-cover-nav-li-padding {
-  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .resume-cover-nav-margin {
@@ -27,26 +34,30 @@ body {
 /* * 共通 nav hover 框框 */
 
 .nav-hover-upperLeft {
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  margin-right: 40px;
   border-top: 1px solid #919191;
   border-left: 1px solid #919191;
 }
 .nav-hover-upperRight {
   top: 0;
   right: 0;
+  margin-right: 40px;
   border-top: 1px solid #919191;
   border-right: 1px solid #919191;
 }
 .nav-hover-lowerRight {
   right: 0;
   bottom: 0;
+  margin-right: 40px;
   border-right: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
 .nav-hover-lowerLeft {
   left: 0;
   bottom: 0;
+  margin-right: 40px;
   border-left: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
@@ -95,86 +106,58 @@ body {
 .nav-hover-upperLeft-StopPage {
   top: 0;
   left: 0px;
+  margin-right: 40px;
   border-top: 1px solid #919191;
   border-left: 1px solid #919191;
 }
 .nav-hover-upperRight-StopPage {
   top: 0;
   right: 0;
+  margin-right: 40px;
   border-top: 1px solid #919191;
   border-right: 1px solid #919191;
 }
 .nav-hover-lowerRight-StopPage {
   right: 0;
   bottom: 0;
+  margin-right: 40px;
   border-right: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
 .nav-hover-lowerLeft-StopPage {
   left: 0;
   bottom: 0;
+  margin-right: 40px;
   border-left: 1px solid #919191;
   border-bottom: 1px solid #919191;
 }
-
-/* * Nav padding 特效 */
-
-.nav-hover-upperLeft-StopPage-padding,
-.nav-hover-upperRight-StopPage-padding,
-.nav-hover-lowerRight-StopPage-padding,
-.nav-hover-lowerLeft-StopPage-padding {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-}
-
-.nav-link:hover .nav-hover-upperLeft-StopPage-padding,
-.nav-link:hover .nav-hover-upperRight-StopPage-padding,
-.nav-link:hover .nav-hover-lowerRight-StopPage-padding,
-.nav-link:hover .nav-hover-lowerLeft-StopPage-padding {
-  display: block !important; /* 鼠标悬停时显示 */
-}
-
-.nav-hover-upperLeft-StopPage-padding {
-  top: 0;
-  left: 40px;
-  border-top: 1px solid #919191;
-  border-left: 1px solid #919191;
-}
-.nav-hover-upperRight-StopPage-padding {
-  top: 0;
-  right: 0;
-  border-top: 1px solid #919191;
-  border-right: 1px solid #919191;
-}
-.nav-hover-lowerRight-StopPage-padding {
-  right: 0;
-  bottom: 0;
-  border-right: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-}
-.nav-hover-lowerLeft-StopPage-padding {
-  left: 40px;
-  bottom: 0;
-  border-left: 1px solid #919191;
-  border-bottom: 1px solid #919191;
-}
-
-/* * Nav Media 768px  */
 
 @media (max-width: 768px) {
   .resume-cover-nav-margin {
-    margin-left: 0px;
+    margin-left: 50px;
   }
 
-  /* * 作品集 服務項目 部落格 聯絡我 padding的導覽列 小螢幕*/
-  .nav-hover-upperLeft-StopPage-padding {
-    left: 0px;
+  .featurette {
+    padding-top: 100px;
   }
-  .nav-hover-lowerLeft-StopPage-padding {
-    left: 0px;
+
+  .navbar {
+    position: absolute;
+    background-color: #ffffff;
+    left: 0;
+    right: 0;
+    z-index: 2;
   }
 }
+
+@media (max-width: 1000px) {
+  .featurette {
+    padding-top: 100px;
+  }
+}
+/* .... */
+/* * Nav Media 768px  */
+
 
 /* * 首頁自我介紹 992PX*/
 @media (max-width: 1200px) {
